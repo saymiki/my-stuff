@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>My Portfolio</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Portfolio</h1>
+        <figure>
+            <img src="public/images/profile-picture.jpeg" class="pic" alt="Profile Photo" />
+        </figure>
+        <div>
+            <h3>Mikaela Montesclaros</h3>
+            <!-- create links to sections of the page
+            link to works, contact me, and bio -->
+            <a href="#section1">Work</a>
+            <a href="#section2">About Me</a>
+            <a href="#section3">Get in Touch</a>
+
+        </div>
+    </header>
+
+    <!-- create div for my work -->
+    <div class="container" id="section1">
+        <h3 class="title">WORK</h3>
+        <div class="project">
+            <!-- add image -->
+            <!-- make img clickable -->
+            <h2>Kidding Kitties, First Group Project</h2>
+            <a href="https://chi-town-coders.github.io/kidding-kitties/">
+                <img src="public/images/kitties.png" class="pic" alt="kitties" />
+            </a>
+
+            <p>This website was created to feature adoptable cats using PetFinder.com's API. To make adopting cats more
+                appealing than simply going to a pet store, we've given these furry friends a bit of personality. When a
+                user selects a fluffy friend, the webapp displays a joke from the Joke API and a link to their PetFinder
+                page so users can decide whether to adopt them.</p>
+            <p>Deployed App: <a href="https://chi-town-coders.github.io/kidding-kitties/">Kidding Kitties</a></p>
+        </div>
+        <div class="project">
+            <!-- add image -->
+            <!-- make img clickable -->
+            <h2>Plant-Pedia, Second Group Project</h2>
+            <a href="https://plantpedia.herokuapp.com/">
+                <img src="public/images/plant-pedia-logo.png" class="pic" alt="plant" />
+            </a>
+            <p>This website allows the user to view and search for plants. The user can select to see outdoor, indoor,
+                or all plants. These plants are ranked by difficulty of care when listed for the user. Users can also
+                rate these plants and view ratings from other people on them as well.</p>
+            <p>Deployed App: <a href="https://plantpedia.herokuapp.com/">Plant-Pedia</a></p>
+        </div>
+        <!-- bio -->
+        <div class="container" id="section2">
+            <h3 class="title">About Me</h3>
+            <p>here is a bunch of stuff about me idk what I'm doing and I'm applying to new jobs and honestly I'm kinda
+                overwhelmed and would like to be in close proximity to the ocean but I'm from Chicago so the closest
+                thing I have to the ocean is big-ass lake michigan but it's pretty freaky and argueably much scarier
+                than the ocean</p>
+        </div>
+        <!-- contact me seciton -->
+        <div class="container" id="section3">
+            <h3 class="title">Get in Touch</h3>
+            <p>mikaela.montesclaros@gmail.com</p>
+            <figure>
+                <img src="public/images/hamster-scared-meme-ff5rjes3s8xocff1.gif" class="pic" alt="hamster" />
+            </figure>
+
+        </div>
+
+        <footer>
+
+        </footer>
+
 </body>
+
 </html>

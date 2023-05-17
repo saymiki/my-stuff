@@ -13,3 +13,7 @@ This portfolio serves as a platform to demonstrate the range and depth of my web
 ## LINK
 
 [My Portfolio](https://saymiki.github.io/my-stuff/)
+
+## Credits
+
+[scared hammy](https://gifdb.com/gif/hamster-scared-meme-ff5rjes3s8xocff1.html)
