@@ -8,7 +8,7 @@ This portfolio serves as a platform to demonstrate the range and depth of my web
 
 ## DEPLOYMENT
 
-![Image](public/Images/deployment.png)
+![Image](public/images/deployed.png)
 
 ## LINK
 
